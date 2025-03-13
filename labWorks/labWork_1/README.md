@@ -23,3 +23,4 @@ Undo/redo actions.
 A canvas with a fixed size (80*30) will be created first. All figures will initially be placed in the center of the canvas. To add a triangle, you must enter the lengths of the three sides; for a rectangle, the lengths of 2 sides; and for a circle, the radius. Then you will be able to move an object, erase it, fill the object, draw another figure, redo or undo previous actions. When you are ready to exit, you should save your canvas as a file. This way, you will be able to continue your work next time by loading the appropriate file.
 
 Note! All shapes will be drawn and filled using the symbol ' * '
+[UML](https://miro.com/app/board/uXjVIbd--SE=/)
