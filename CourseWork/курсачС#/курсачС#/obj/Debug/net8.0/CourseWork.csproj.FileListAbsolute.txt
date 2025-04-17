@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\курсачС#\курсачС#\obj\Debug\net8.0\CourseWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\курсачС#\курсачС#\obj\Debug\net8.0\CourseWork.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\курсачС#\курсачС#\obj\Debug\net8.0\CourseWork.AssemblyInfo.cs
+C:\Users\user\source\repos\курсачС#\курсачС#\obj\Debug\net8.0\CourseWork.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\курсачС#\курсачС#\bin\Debug\net8.0\CourseWork.exe
+C:\Users\user\source\repos\курсачС#\курсачС#\bin\Debug\net8.0\CourseWork.deps.json
+C:\Users\user\source\repos\курсачС#\курсачС#\bin\Debug\net8.0\CourseWork.runtimeconfig.json
+C:\Users\user\source\repos\курсачС#\курсачС#\bin\Debug\net8.0\CourseWork.dll
+C:\Users\user\source\repos\курсачС#\курсачС#\bin\Debug\net8.0\CourseWork.pdb
+C:\Users\user\source\repos\курсачС#\курсачС#\obj\Debug\net8.0\CourseWork.dll
+C:\Users\user\source\repos\курсачС#\курсачС#\obj\Debug\net8.0\refint\CourseWork.dll
+C:\Users\user\source\repos\курсачС#\курсачС#\obj\Debug\net8.0\CourseWork.pdb
+C:\Users\user\source\repos\курсачС#\курсачС#\obj\Debug\net8.0\CourseWork.genruntimeconfig.cache
+C:\Users\user\source\repos\курсачС#\курсачС#\obj\Debug\net8.0\ref\CourseWork.dll
