@@ -12,7 +12,6 @@ namespace Services
         // This is a mock implementation - in a real app, this would call the actual BSUIR API
         public List<Lesson> GetScheduleForGroup(string groupId, DateTime date)
         {
-            // Mock data , will be  replaced with actual API call
             return new List<Lesson>
             {
                 new Lesson("Programming", "09:00", "10:30"),
