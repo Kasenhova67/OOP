@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v8.0",
@@ -200,4 +201,28 @@
       "hashPath": "xunit.runner.visualstudio.3.0.2.nupkg.sha512"
     }
   }
+=======
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CourseWork/1.0.0": {
+        "runtime": {
+          "CourseWork.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CourseWork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+>>>>>>> 1db942a9e8ab65cb57a9decb16eea9788ae7a2f4
 }

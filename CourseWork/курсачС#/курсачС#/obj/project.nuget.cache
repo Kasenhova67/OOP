@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "e/oosz9pj8M=",
@@ -17,4 +18,13 @@
     "C:\\Users\\user\\.nuget\\packages\\xunit.runner.visualstudio\\3.0.2\\xunit.runner.visualstudio.3.0.2.nupkg.sha512"
   ],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "Em8HV119KOg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\курсачС#\\курсачС#\\CourseWork.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> 1db942a9e8ab65cb57a9decb16eea9788ae7a2f4
 }
