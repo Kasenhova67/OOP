@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "iCC352vfKgg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\testt\\testt\\testt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
