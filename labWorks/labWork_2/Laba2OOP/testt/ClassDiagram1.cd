@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="testt.AccessManager" Collapsed="true">
+    <Position X="9.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAAgAAAAAAAAgIAAAAAAAAQgAAAAAQQABACAAAAg=</HashCode>
+      <FileName>AccessManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="testt.DocumentEditorApp" Collapsed="true">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YgAAgQMAAAAQAAIAAEQAABAYEAIgAAADABEEAAEIARM=</HashCode>
+      <FileName>App.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_documentManager" />
+      <Field Name="_currentUser" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="testt.AppSettings">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAA4AAEAAgAACAAAAAAAYAAAAAAAAAA=</HashCode>
+      <FileName>AppSettings.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_instance" />
+      <Field Name="_lock" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="testt.TextComponent" Collapsed="true">
+    <Position X="4.75" Y="2.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAMAAAAgAAAACAAAAAAAAAABA=</HashCode>
+      <FileName>Decorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="testt.PlainText" Collapsed="true">
+    <Position X="3.5" Y="3.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAMAAAAgAAAACIAAAAAAAAAFA=</HashCode>
+      <FileName>Decorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="testt.TextDecorator" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAMAAAAgAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="testt.BoldText" Collapsed="true">
+    <Position X="4.5" Y="4.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAMAAAAgAAAACAAAAAAAAAABA=</HashCode>
+      <FileName>Decorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="testt.ItalicText" Collapsed="true">
+    <Position X="6.75" Y="4.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAMAAAAgAAAACAAAAAAAAAABA=</HashCode>
+      <FileName>Decorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="testt.UnderlineText" Collapsed="true">
+    <Position X="8" Y="4.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAMAAAAgAAAACAAAAAAAAAABA=</HashCode>
+      <FileName>Decorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="testt.HeaderText" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAMQAAAgAAAACAAAAAAAAAABA=</HashCode>
+      <FileName>Decorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="testt.DocumentHistory" Collapsed="true">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAQAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAACIAA=</HashCode>
+      <FileName>DocHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="testt.DocumentChange" Collapsed="true">
+    <Position X="13.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAgAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="testt.Document" Collapsed="true">
+    <Position X="19" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AA4AJAABAIAUBEIBBAQAAwALA4AAAgBCACAEAAYkAAA=</HashCode>
+      <FileName>Document.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="testt.DocumentAccess" Collapsed="true">
+    <Position X="9.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAASAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="testt.Doc" Collapsed="true">
+    <Position X="13.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Ag4ABAABAAAUBEAAAAQAAAAJAgAAAAACACAAAAAgAAA=</HashCode>
+      <FileName>Documentionscs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="testt.DocumentManager" Collapsed="true">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAABABAAABQEAQAAAAAAAAACCAAAAAEAAAACQAAABg=</HashCode>
+      <FileName>DocumentManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="testt.PlainTextFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="1.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Formats.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="testt.MarkdownFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Formats.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="testt.RichTextFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Formats.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="testt.JsonAdapter" Collapsed="true">
+    <Position X="22.5" Y="3.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Json.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="testt.MarkdownAdapter" Collapsed="true">
+    <Position X="21" Y="4.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Markdown.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="testt.PlainTextAdapter" Collapsed="true">
+    <Position X="22.5" Y="4.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plain.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="testt.RichTextAdapter" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Richtext.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="testt.LocalFileStorage" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Storage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="testt.OneDriveLocalStorage" Collapsed="true">
+    <Position X="20" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Storage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="testt.UserManager" Collapsed="true">
+    <Position X="9.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAgAAgAACAgAEIAAEAAAAAAAIAgUAIAAAEAAAA=</HashCode>
+      <FileName>UserManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="testt.User" Collapsed="true">
+    <Position X="11.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYYAAAAAAAAAQAAEAAAAAQAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="testt.XmlAdapter" Collapsed="true">
+    <Position X="21.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="testt.UserRole" Collapsed="true">
+    <Position X="14.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAQAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

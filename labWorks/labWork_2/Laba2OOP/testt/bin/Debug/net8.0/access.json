@@ -1,0 +1,11 @@
+[
+  {
+    "Path": "kasenhova.txt",
+    "Owner": "Bob",
+    "CreatedDate": "2025-04-30T21:45:27.8304106+03:00",
+    "AccessList": {
+      "Bob": "Edit",
+      "kasenhova": "Edit"
+    }
+  }
+]

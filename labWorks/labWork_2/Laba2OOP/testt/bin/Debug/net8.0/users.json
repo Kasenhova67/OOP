@@ -1,0 +1,22 @@
+{
+  "kasenhova": {
+    "Name": "kasenhova",
+    "Role": 2,
+    "OwnedDocuments": []
+  },
+  "Bob": {
+    "Name": "Bob",
+    "Role": 1,
+    "OwnedDocuments": []
+  },
+  "Sam": {
+    "Name": "Sam",
+    "Role": 1,
+    "OwnedDocuments": []
+  },
+  "Alex": {
+    "Name": "Alex",
+    "Role": 0,
+    "OwnedDocuments": []
+  }
+}
