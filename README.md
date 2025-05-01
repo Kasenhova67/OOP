@@ -146,3 +146,4 @@ This is a console-based document editor application that supports various docume
 7. **Command**: Undo/Redo operations
 
 The application demonstrates how these patterns can work together to create a flexible, maintainable system with clear separation of concerns.
+![UML diagram](https://github.com/user-attachments/assets/3e14ecbf-1e45-4f1a-9d7b-992f19207db7)
