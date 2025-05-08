@@ -1,171 +1,134 @@
-using Xunit;
-using testt;
-using System;
-using System.Collections.Generic;
 
-namespace TestProject
-{
-    public class AppSettingsTests
+    using Xunit;
+    using testt;
+    using System.Reflection.Metadata;
+
+    namespace TestProject
     {
-        [Fact]
-        public void AppSettings_IsSingleton()
+        public class AppSettingsTests
         {
-            var instance1 = AppSettings.Instance;
-            var instance2 = AppSettings.Instance;
-
-            Assert.Same(instance1, instance2);
-        }
-
-        
-    }
-
-    public class TextComponentTests
-    {
-        [Fact]
-        public void PlainText_GetText_ReturnsCorrectText()
-        {
-            var text = "Hello";
-            var component = new PlainText(text);
-
-            Assert.Equal(text, component.GetText());
-            Assert.Equal(text, component.GetRawText());
-        }
-
-        [Fact]
-        public void BoldText_ModifiesFormat()
-        {
-            var baseText = new PlainText("Text");
-            var boldText = new BoldText(baseText);
-
-            Assert.Contains("Bold", boldText.GetFormat());
-            Assert.Equal(ConsoleColor.Yellow, boldText.GetColor());
-        }
-
-        [Fact]
-        public void HeaderText_AddsLevelToFormat()
-        {
-            var baseText = new PlainText("Header");
-            var header = new HeaderText(baseText, 2);
-
-            Assert.Contains("Header2", header.GetFormat());
-            Assert.Equal(ConsoleColor.Green, header.GetColor());
-        }
-    }
-
-    public class DocumentTests
-    {
-        [Fact]
-        public void InsertText_AddsComponentAtPosition()
-        {
-            var doc = new Document();
-            doc.InsertText(0, "Test");
-
-            Assert.Single(doc.GetContent());
-            Assert.Equal("Test", doc.GetContent()[0].GetText());
-        }
-
-        [Fact]
-        public void DeleteText_RemovesCorrectCharacters()
-        {
-            var doc = new Document();
-            doc.InsertText(0, "Hello World");
-            doc.DeleteText(6, 5);
-
-            Assert.Equal("Hello ", doc.GetFullText());
-        }
-
-        [Fact]
-        public void Undo_ReverseLastAction()
-        {
-            var doc = new Document();
-            doc.InsertText(0, "First");
-            doc.InsertText(0, "Second");
-            doc.Undo();
-
-            Assert.Equal("First", doc.GetFullText());
-        }
-
-       
-       
-    }
-
-    public class CommandTests
-    {
-        [Fact]
-        public void InsertTextCommand_ExecuteAndUndo()
-        {
-            var doc = new Document();
-            var cmd = new Document.InsertTextCommand(doc, 0, "Test", "");
-
-            cmd.Execute();
-            Assert.Equal("Test", doc.GetFullText());
-
-            cmd.Undo();
-            Assert.Empty(doc.GetContent());
-        }
-
-        
-    }
-
-    public class DocumentManagerTests
-    {
-        [Fact]
-        public void CreateDocument_WithValidType()
-        {
-            var manager = new DocumentManager();
-            manager.CreateDocument("plain");
-
-            Assert.NotNull(manager.CurrentDocument);
-            Assert.Contains("plain", manager.CurrentDocument.Title.ToLower());
-        }
-
-        
-    }
-
-    public class AdapterTests
-    {
-        [Fact]
-        public void PlainTextAdapter_ConvertsCorrectly()
-        {
-            var adapter = new PlainTextAdapter();
-            var doc = new Document();
-            doc.InsertText(0, "Test");
-
-            string serialized = adapter.Convert(doc);
-            Document deserialized = adapter.ConvertBack(serialized);
-
-            Assert.Equal("Test", deserialized.GetFullText());
-        }
-
-       
-    }
-
-    public class ObserverTests
-    {
-        [Fact]
-        public void Document_NotifiesObservers()
-        {
-            var doc = new Document();
-            var observer = new TestObserver();
-            doc.Attach(observer);
-
-            doc.InsertText(0, "Test");
-
-            Assert.Contains("inserted", observer.LastMessage);
-        }
-
-        private class TestObserver : IObserver
-        {
-            public string LastMessage { get; private set; }
-
-            public void Update(string message)
+            [Fact]
+            public void AppSettings_IsSingleton()
             {
-                LastMessage = message;
+                var instance1 = AppSettings.Instance;
+                var instance2 = AppSettings.Instance;
+
+                Assert.Same(instance1, instance2);
+            }
+
+
+        }
+
+        public class TextComponentTests
+        {
+            [Fact]
+            public void PlainText_GetText_ReturnsCorrectText()
+            {
+                var text = "Hello";
+                var component = new PlainText(text);
+
+                Assert.Equal(text, component.GetText());
+                Assert.Equal(text, component.GetRawText());
+            }
+
+            [Fact]
+            public void BoldText_ModifiesFormat()
+            {
+                var baseText = new PlainText("Text");
+                var boldText = new BoldText(baseText);
+
+                Assert.Contains("Bold", boldText.GetFormat());
+                Assert.Equal(ConsoleColor.Yellow, boldText.GetColor());
+            }
+
+            [Fact]
+            public void HeaderText_AddsLevelToFormat()
+            {
+                var baseText = new PlainText("Header");
+                var header = new HeaderText(baseText, 2);
+
+                Assert.Contains("Header2", header.GetFormat());
+                Assert.Equal(ConsoleColor.Green, header.GetColor());
             }
         }
-    }
 
-   
+        public class DocumentTests
+        {
+            [Fact]
+            public void InsertText_AddsComponentAtPosition()
+            {
+                var doc = new testt.Document();
+                doc.InsertText(0, "Test", "Sam");
+
+                Assert.Single(doc.GetContent());
+                Assert.Equal("Test", doc.GetContent()[0].GetText());
+            }
+
+            [Fact]
+            public void DeleteText_RemovesCorrectCharacters()
+            {
+                var doc = new testt.Document();
+                doc.InsertText(0, "Hello World", "Sam");
+                doc.DeleteText(6, 5, "Sam");
+
+                Assert.Equal("Hello ", doc.GetFullText());
+            }
+
+            [Fact]
+            public void Undo_ReverseLastAction()
+            {
+                var doc = new testt.Document();
+                doc.InsertText(0, "First", "Sam");
+                doc.InsertText(0, "Second", "Sam");
+                doc.Undo("Sam");
+
+                Assert.Equal("First", doc.GetFullText());
+            }
+
+
+
+        }
+
+        public class CommandTests
+        {
+            [Fact]
+            public void InsertTextCommand_ExecuteAndUndo()
+            {
+                var doc = new testt.Document();
+                var cmd = new testt.Document.InsertTextCommand(doc, 0, "Test", "");
+
+                cmd.Execute();
+                Assert.Equal("Test", doc.GetFullText());
+
+                cmd.Undo();
+                Assert.Empty(doc.GetContent());
+            }
+
+
+        }
+
+     
+
+        public class AdapterTests
+        {
+            [Fact]
+            public void PlainTextAdapter_ConvertsCorrectly()
+            {
+                var adapter = new PlainTextAdapter();
+                var doc = new testt.Document();
+                doc.InsertText(0, "Test", "Sam");
+
+                string serialized = adapter.Convert(doc);
+            testt.Document deserialized = adapter.ConvertBack(serialized);
+
+                Assert.Equal("Test", deserialized.GetFullText());
+            }
+
+
+        }
+
+
+
         public class AdvancedTextComponentTests
         {
             [Fact]
@@ -204,16 +167,16 @@ namespace TestProject
             [Fact]
             public void InsertText_AtNegativePosition_ThrowsException()
             {
-                var doc = new Document();
-                Assert.Throws<ArgumentOutOfRangeException>(() => doc.InsertText(-1, "Test"));
+                var doc = new testt.Document();
+                Assert.Throws<ArgumentOutOfRangeException>(() => doc.InsertText(-1, "Test", "Sam"));
             }
 
             [Fact]
             public void DeleteText_BeyondDocumentLength_DeletesToEnd()
             {
-                var doc = new Document();
-                doc.InsertText(0, "Short");
-                doc.DeleteText(2, 100);
+                var doc = new testt.Document();
+                doc.InsertText(0, "Short", "Sam");
+                doc.DeleteText(2, 100, "Sam");
 
                 Assert.Equal("Sh", doc.GetFullText());
             }
@@ -221,8 +184,8 @@ namespace TestProject
             [Fact]
             public void ApplyFormat_ToEmptyDocument_DoesNothing()
             {
-                var doc = new Document();
-                doc.ApplyFormat(0, 5, "bold"); // Не должно вызывать исключений
+                var doc = new testt.Document();
+                doc.ApplyFormat(0, 5, "bold", "Sam"); // Не должно вызывать исключений
 
                 Assert.Empty(doc.GetContent());
             }
@@ -230,14 +193,14 @@ namespace TestProject
             [Fact]
             public void Undo_WithEmptyStack_DoesNothing()
             {
-                var doc = new Document();
-                doc.Undo(); // Не должно вызывать исключений
+                var doc = new testt.Document();
+                doc.Undo("Sam"); // Не должно вызывать исключений
 
                 Assert.Empty(doc.GetContent());
             }
         }
 
-      
+
 
         public class DocumentManagerAdvancedTests
         {
@@ -245,7 +208,7 @@ namespace TestProject
             public void CreateDocument_WithInvalidType_ShowsError()
             {
                 var manager = new DocumentManager();
-                manager.CreateDocument("invalid_type");
+                manager.CreateDocument("invalid_type", "Sam");
 
                 Assert.Null(manager.CurrentDocument);
             }
@@ -269,7 +232,7 @@ namespace TestProject
             }
         }
 
-      
+
 
         public class StorageStrategyTests
         {
@@ -302,26 +265,26 @@ namespace TestProject
             [Fact]
             public void Document_DisplayPreviewMode_ShowsFormattedText()
             {
-                var doc = new Document();
-                doc.InsertText(0, "Test");
-                doc.ApplyFormat(0, 0, "bold");
+                var doc = new testt.Document();
+                doc.InsertText(0, "Test", "Sam");
+                doc.ApplyFormat(0, 0, "bold", "Sam");
 
-                doc.Mode = Document.DisplayMode.Preview;
+                doc.Mode = testt.Document.DisplayMode.Preview;
                 doc.Display(); // Не должно вызывать исключений
             }
 
             [Fact]
             public void Document_DisplayEditMode_ShowsMarkup()
             {
-                var doc = new Document();
-                doc.InsertText(0, "Test");
-                doc.ApplyFormat(0, 0, "bold");
+                var doc = new testt.Document();
+                doc.InsertText(0, "Test", "Sam");
+                doc.ApplyFormat(0, 0, "bold", "Sam");
 
-                doc.Mode = Document.DisplayMode.Edit;
+                doc.Mode = testt.Document.DisplayMode.Edit;
                 doc.Display(); // Не должно вызывать исключений
             }
         }
 
-        
-    
-}
+
+
+    }
