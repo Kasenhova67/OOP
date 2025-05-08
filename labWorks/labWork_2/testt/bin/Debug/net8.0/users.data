@@ -1,0 +1,39 @@
+{
+  "kasenhova": {
+    "Name": "kasenhova",
+    "Role": "Admin",
+    "Notifications": {
+      "Sam.txt": [
+        {
+          "Message": "Text inserted at position 1",
+          "DocumentPath": "Sam.txt",
+          "Timestamp": "2025-05-07T17:55:51.7157133+03:00",
+          "IsRead": false
+        },
+        {
+          "Message": "Deleted 1 characters from position 1",
+          "DocumentPath": "Sam.txt",
+          "Timestamp": "2025-05-07T17:55:57.4782593+03:00",
+          "IsRead": false
+        },
+        {
+          "Message": "Cut 1 characters to clipboard",
+          "DocumentPath": "Sam.txt",
+          "Timestamp": "2025-05-07T17:55:57.4790745+03:00",
+          "IsRead": false
+        },
+        {
+          "Message": "Undo performed",
+          "DocumentPath": "Sam.txt",
+          "Timestamp": "2025-05-07T17:55:59.9024261+03:00",
+          "IsRead": false
+        }
+      ]
+    }
+  },
+  "Sam": {
+    "Name": "Sam",
+    "Role": "Editor",
+    "Notifications": {}
+  }
+}

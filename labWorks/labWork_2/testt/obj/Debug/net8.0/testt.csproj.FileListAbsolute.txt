@@ -1,0 +1,68 @@
+C:\Users\user\source\repos\testt\testt\bin\Debug\net8.0\testt.exe
+C:\Users\user\source\repos\testt\testt\bin\Debug\net8.0\testt.deps.json
+C:\Users\user\source\repos\testt\testt\bin\Debug\net8.0\testt.runtimeconfig.json
+C:\Users\user\source\repos\testt\testt\bin\Debug\net8.0\testt.dll
+C:\Users\user\source\repos\testt\testt\bin\Debug\net8.0\testt.pdb
+C:\Users\user\source\repos\testt\testt\obj\Debug\net8.0\testt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\testt\testt\obj\Debug\net8.0\testt.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\testt\testt\obj\Debug\net8.0\testt.AssemblyInfo.cs
+C:\Users\user\source\repos\testt\testt\obj\Debug\net8.0\testt.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\testt\testt\obj\Debug\net8.0\testt.dll
+C:\Users\user\source\repos\testt\testt\obj\Debug\net8.0\refint\testt.dll
+C:\Users\user\source\repos\testt\testt\obj\Debug\net8.0\testt.pdb
+C:\Users\user\source\repos\testt\testt\obj\Debug\net8.0\testt.genruntimeconfig.cache
+C:\Users\user\source\repos\testt\testt\obj\Debug\net8.0\ref\testt.dll
+C:\Users\user\source\repos\testt\testt\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\user\source\repos\testt\testt\obj\Debug\net8.0\testt.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\testt\testt\obj\Debug\net8.0\testt.csproj.Up2Date
+D:\source\repos\testt - Copy\testt\obj\Debug\net8.0\testt.csproj.AssemblyReference.cache
+D:\source\repos\testt - Copy\testt\obj\Debug\net8.0\testt.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\testt - Copy\testt\obj\Debug\net8.0\testt.AssemblyInfoInputs.cache
+D:\source\repos\testt - Copy\testt\obj\Debug\net8.0\testt.AssemblyInfo.cs
+D:\source\repos\testt - Copy\testt\obj\Debug\net8.0\testt.csproj.CoreCompileInputs.cache
+D:\source\repos\testt - Copy\testt\bin\Debug\net8.0\testt.exe
+D:\source\repos\testt - Copy\testt\bin\Debug\net8.0\testt.deps.json
+D:\source\repos\testt - Copy\testt\bin\Debug\net8.0\testt.runtimeconfig.json
+D:\source\repos\testt - Copy\testt\bin\Debug\net8.0\testt.dll
+D:\source\repos\testt - Copy\testt\bin\Debug\net8.0\testt.pdb
+D:\source\repos\testt - Copy\testt\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\source\repos\testt - Copy\testt\obj\Debug\net8.0\testt.csproj.Up2Date
+D:\source\repos\testt - Copy\testt\obj\Debug\net8.0\testt.dll
+D:\source\repos\testt - Copy\testt\obj\Debug\net8.0\refint\testt.dll
+D:\source\repos\testt - Copy\testt\obj\Debug\net8.0\testt.pdb
+D:\source\repos\testt - Copy\testt\obj\Debug\net8.0\testt.genruntimeconfig.cache
+D:\source\repos\testt - Copy\testt\obj\Debug\net8.0\ref\testt.dll
+C:\Users\user\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.AssemblyInfo.cs
+C:\Users\user\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.dll
+C:\Users\user\source\repos\Laba2OOP\testt\obj\Debug\net8.0\refint\testt.dll
+C:\Users\user\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.pdb
+C:\Users\user\source\repos\Laba2OOP\testt\bin\Debug\net8.0\testt.exe
+C:\Users\user\source\repos\Laba2OOP\testt\bin\Debug\net8.0\testt.deps.json
+C:\Users\user\source\repos\Laba2OOP\testt\bin\Debug\net8.0\testt.runtimeconfig.json
+C:\Users\user\source\repos\Laba2OOP\testt\bin\Debug\net8.0\testt.dll
+C:\Users\user\source\repos\Laba2OOP\testt\bin\Debug\net8.0\testt.pdb
+C:\Users\user\source\repos\Laba2OOP\testt\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\user\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.csproj.Up2Date
+C:\Users\user\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.genruntimeconfig.cache
+C:\Users\user\source\repos\Laba2OOP\testt\obj\Debug\net8.0\ref\testt.dll
+D:\source\repos\Laba2OOP\testt\bin\Debug\net8.0\testt.exe
+D:\source\repos\Laba2OOP\testt\bin\Debug\net8.0\testt.deps.json
+D:\source\repos\Laba2OOP\testt\bin\Debug\net8.0\testt.runtimeconfig.json
+D:\source\repos\Laba2OOP\testt\bin\Debug\net8.0\testt.dll
+D:\source\repos\Laba2OOP\testt\bin\Debug\net8.0\testt.pdb
+D:\source\repos\Laba2OOP\testt\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.csproj.AssemblyReference.cache
+D:\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.AssemblyInfoInputs.cache
+D:\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.AssemblyInfo.cs
+D:\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.csproj.CoreCompileInputs.cache
+D:\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.csproj.Up2Date
+D:\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.dll
+D:\source\repos\Laba2OOP\testt\obj\Debug\net8.0\refint\testt.dll
+D:\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.pdb
+D:\source\repos\Laba2OOP\testt\obj\Debug\net8.0\testt.genruntimeconfig.cache
+D:\source\repos\Laba2OOP\testt\obj\Debug\net8.0\ref\testt.dll
