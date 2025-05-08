@@ -1,0 +1,27 @@
+{
+  "kasenhova": {
+    "Name": "kasenhova",
+    "Role": 2,
+    "OwnedDocuments": [],
+    "SubscribedDocuments": [
+      "Sam.txt"
+    ]
+  },
+  "Sam": {
+    "Name": "Sam",
+    "Role": 1,
+    "OwnedDocuments": [
+      "N.txt",
+      "N.txt"
+    ],
+    "SubscribedDocuments": [
+      "Sam.txt"
+    ]
+  },
+  "Bob": {
+    "Name": "Bob",
+    "Role": 1,
+    "OwnedDocuments": [],
+    "SubscribedDocuments": []
+  }
+}
