@@ -12,13 +12,8 @@ The task of this lab was to create a simple variant of Paint in console.
 #### [Lab №3](https://github.com/Kasenhova67/OOP/tree/lr3/labWorks/labWork_3)
 
 
-#### [Lab №4](https://github.com/Kasenhova67/OOP/tree/lr4/labWorks/labWork_4)
 
+### Term paper on topic "Task manager integrated with BSUIR schedule" (C#)
+#### [Code of the program](https://github.com/Kasenhova67/OOP/tree/main/CourseWork/курсачС%23)
 
-### Term paper on topic "Task manager" done in Python
-#### [Code of the program]()
-
-#### [Report]()
-
-#### [Flowcharts]()
 
